@@ -5,7 +5,7 @@ import {
 import {
   SiTypescript, SiDotnet, SiTailwindcss, SiJavascript, SiCplusplus, SiJirasoftware
 } from 'react-icons/si';
-
+import Resume from '../assets/Srinjoy-Resume2025.pdf'
 const skills = [
   { name: 'JavaScript', icon: <SiJavascript /> },
   { name: 'TypeScript', icon: <SiTypescript /> },
@@ -37,7 +37,7 @@ const MainGlassCard = () => {
               Senior Frontend Developer with 3+ years of experience crafting stunning, scalable user interfaces with Angular, React, and .NET Core. I focus on beautiful, accessible, and responsive design using glassmorphism, neumorphism, and advanced UI engineering.
             </p>
             <a
-              href="src\assets\Srinjoy-Resume2025.pdf"
+              href={Resume}
               download
               className="inline-block px-4 py-2 rounded-lg bg-white/20  hover:bg-white/30 border border-white/20 text-sm font-semibold shadow backdrop-blur-sm transition-all"
             >

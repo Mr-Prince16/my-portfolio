@@ -32,7 +32,7 @@ const Body = () => {
 
   return (
     <div className={`h-screen w-full transition-all duration-500 ${backgroundClass} `}>
-      <div className="max-w-[1900px] mx-auto flex flex-col gap-2 h-full">
+      <div className="max-w-[1400px] mx-auto flex flex-col gap-2 h-full">
 
         {/* Header */}
         <div className={`sticky top-0 z-50 ${textColorClass}`}>

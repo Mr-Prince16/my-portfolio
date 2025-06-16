@@ -3,6 +3,7 @@ import { useColorBlind } from '../Contexts/ColorBlindContext';
 import { FaPalette } from 'react-icons/fa';
 import { BsPersonCircle } from 'react-icons/bs';
 import { motion, AnimatePresence } from 'framer-motion';
+import profileImg from '../assets/DSC_0470.jpg';
 
 const modes = [
     { key: 'normal', label: 'Normal', color: 'from-pink-100 to-blue-200' },
@@ -28,7 +29,7 @@ const Header = ({ toggleSidebar }) => {
             <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-md">
                     <img
-                        src="src\assets\DSC_0470.jpg"
+                        src={profileImg}
                         alt="Logo"
                         className="object-cover w-full h-full"
                     />
