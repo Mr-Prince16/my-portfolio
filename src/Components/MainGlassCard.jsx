@@ -5,7 +5,7 @@ import {
 import {
   SiTypescript, SiDotnet, SiTailwindcss, SiJavascript, SiCplusplus, SiJirasoftware
 } from 'react-icons/si';
-import Resume from '../assets/Srinjoy-Resume2025.pdf'
+import Resume from '../assets/Srinjoy_Bhattacharya_Resume.pdf'
 const skills = [
   { name: 'JavaScript', icon: <SiJavascript /> },
   { name: 'TypeScript', icon: <SiTypescript /> },
